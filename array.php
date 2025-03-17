@@ -38,3 +38,36 @@ var_dump($new_fruits);
 echo "<br>";
 var_dump($fruits);
 
+//Task 1: Create an indexed array
+$arr_1 =array("kallu","allu","sallu");
+
+//Task 2: Create an associative array
+$arr_2 = array("helll"=>"who","gell"=>"yes","are"=>"you",);
+
+//Task 3: Create a multidimensional array
+$arr_3 =array(array("name"=>"jowel","age"=>30),array("name"=>"ashreaf","age"=>35));
+
+
+//Task 1: Create a range of numbers
+$arr_4 = array(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15);
+$result_arr_4 = range(1, 10);
+echo "<br>";
+var_dump($result_arr_4);
+echo "<br>";
+foreach( $result_arr_4 as $counters){
+    echo "<br> $counters";
+}
+
+//Task 2: Create an array of even numbers
+//Task 2: Create an array of even numbers
+//find out even from an array
+echo "<br>break<br>";
+
+$arr_5=array(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20);
+$store = [];
+foreach($arr_5 as $val){
+    if($val%2===0){
+        $store[]=$val;
+    }
+}
+var_dump($store);
