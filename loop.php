@@ -61,7 +61,7 @@ counti($counter);
 echo "actual value of $counter <br>";
 
 
-function sumOf(...$value) {
+ffunction sumOf(...$value) {
     $store = 0;
     $len = count($value);
     for ($i = 0; $i < $len; $i++) { // Use $i, not $I
